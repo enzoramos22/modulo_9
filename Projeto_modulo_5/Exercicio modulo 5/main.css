@@ -63,6 +63,7 @@ body{
 
 .Personagens h2{
     font-size: 35px;
+    line-height: 70px;
 }
 
 .Personagens p{
@@ -109,6 +110,7 @@ body{
 
 .sobre_o_jogo h2{
     font-size: 35px;
+    line-height: 70px;
 }
 
 .sobre_o_jogo p{
@@ -147,7 +149,6 @@ footer{
 }
 
 footer{
-    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
