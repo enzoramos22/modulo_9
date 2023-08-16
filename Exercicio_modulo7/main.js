@@ -17,7 +17,7 @@ form.addEventListener('submit', function(e){
     }
 })
 
-numeroMaior.addEventListener('submit', function(e){
+form.addEventListener('submit', function(e){
     let numeroEMaior= maiorNumero(numero.valueAsNumber, numeroMaior.valueAsNumber)
     if (!numeroEMaior){
         erro.style.display = 'block'
