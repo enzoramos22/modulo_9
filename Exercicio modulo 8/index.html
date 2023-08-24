@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Agenda de contatos </h1>
+            <img src="./Imagens/png-transparent-agenda-graphy-agenda-miscellaneous-television-angle.png" alt="agenda">
+        </header>
+        <form id="form">
+            <input type="text" id="nome-contato" required placeholder="Nome do contato" id="nome-contato">
+            <input type="number" id="numero-contato" required  placeholder="Numero do contato" id="numero-contato" min="100000000" max="999999999">
+            <button type="submit">Adicionar</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome do contato
+                    </th>
+                    <th>
+                        Numero do contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
