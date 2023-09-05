@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    padding: 13px 0;
+    border-bottom: 10px solid rgb(111, 0, 214);
+    font-size: 20px;
+}
+
+header button{
+    margin-left: 10px;
+    padding: 8px;
+    background-color: green;
+    font-size: 16px;
+    font-weight: none;
+}
+
+form{
+    background-color: rgb(182, 255, 255);
+    padding: 16px;
+}
